@@ -22,7 +22,7 @@ export async function getStaticPaths() {
     fallback: false,
   };
 }
-
+//getStaticPaths() is used for dynamic routing while getStaticProps() is used for rendering pages.
 export default function Post({ postData }) {
   return (
     <Layout>
